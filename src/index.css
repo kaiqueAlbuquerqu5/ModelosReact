@@ -1,0 +1,130 @@
+/* Paleta usada :
+#59143A (Roxo do header)
+#F2994B (amarelo da letra do header)
+#EB6427 (Laranja)
+#F0DDA6 (Dourado)
+#EB214E (Rosa)
+#9ED99E (Verde)
+#F5F5DC (Bege claro)
+*/
+
+#root {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #dbd7d6;
+  background-color: #F2F2F2;
+}
+
+.container {
+  padding: 15px 0 24px 0;
+  background-color: #59143A;
+}
+
+.HeaderClass{
+  width: 100% !important;
+}
+
+.Conteudo{
+  padding-top: 90px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/*Aqui começa a parte do conteúdo principal da página*/
+.home {
+  background-image: url('../src/assets/b1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Altura da viewport */
+  width: 100vw;  /* Largura da viewport */
+  overflow: hidden;
+}
+.conteiner_sobre{
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  width: 522px;
+  height: 255px;
+  top: 201px; /* Move o elemento 20px para baixo */
+  left: 110px; /* Move o elemento 30px para a direita */
+}
+.intro {
+  position: relative;
+  top: 190px; /* Move o elemento 20px para baixo */
+  left: 191px; /* Move o elemento 30px para a direita */
+  width: 500px;
+}
+
+.p_intro{
+  color: #F0DDA6 ;
+}
+.p_sobre{
+  color: #F0DDA6 ;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  
+
+}
+.h_intro{
+  color: #EB6427;
+}
+.sobre_title{
+  color: #9ED99E;
+}
+
+.seta {
+  position: relative;
+  top: 390px;
+  left: 680px;
+  padding: 0px 0px;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.sobre{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.fundo_cor{
+  background-color: #EB214E;
+  height: 100vh; /* Altura da viewport */
+  width: 50vw;  /* Largura da viewport */
+  
+}
+.fundo_menu{
+  width: 50vw;
+  height: 100vh;
+  background-image: url('../src/assets/batata.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  
+}
+
+
+/* Animação */
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+.p_intro, .h_intro, .seta, .sobre_title, .p_sobre  {
+  animation: fadeInUp 1s ease forwards;
+  }
+  

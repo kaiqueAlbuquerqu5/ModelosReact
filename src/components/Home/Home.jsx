@@ -1,6 +1,6 @@
-import arrow from '../src/assets/imagens/ad.png'
-
 function Home(){
+    const UrlArrow = './assets/imagens/ad.png';
+
     return(
         <>
             <div className="home">
@@ -9,7 +9,7 @@ function Home(){
                     <p className="p_intro">Excelência em panificação e confeitaria. Venha <br /> nos conhecer e aproveite uma experiência gourmet única em São Paulo.</p>
                 </div>
                 <button onClick={() => scrollToSection('Sobre_mim')} type="button" className="seta">
-                    <img src={arrow} />
+                    <img src={UrlArrow} />
                 </button>
             </div>
             

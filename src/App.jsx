@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Header from './components/Header/Header'
 import Carrocel from './components/Carrocel/Carrocel';
+import Home from './components/Home/Home'
+import Sobre from './components/Sobre/Sobre';
 
-import Home from './Home';
-import Sobre from './Sobre';
 import imagensData from './data/imagens.json';
 
 

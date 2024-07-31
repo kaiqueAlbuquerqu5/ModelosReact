@@ -38,7 +38,7 @@ body {
 
 /*Aqui começa a parte do conteúdo principal da página*/
 .home {
-  background-image: url('../src/assets/b1.jpg');
+  background-image: url('./assets/b1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body {
 .fundo_menu{
   width: 50vw;
   height: 100vh;
-  background-image: url('../src/assets/batata.jpg');
+  background-image: url('./assets/batata.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
